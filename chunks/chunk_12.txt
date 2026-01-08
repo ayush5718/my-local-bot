@@ -1,0 +1,2 @@
+ern Sales CRM platform.
+The tech stack includes React, TypeScript, Vite, Tailwind CSS, Supabase, Zus

@@ -1,0 +1,2 @@
+s, React Native, JavaScript, TypeScript, HTML, CSS, and Tailwind CSS.
+Backend technologies include N

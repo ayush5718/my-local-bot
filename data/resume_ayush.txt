@@ -1,0 +1,43 @@
+My name is Aayush Kumar.
+I am based in Kolkata, West Bengal, India.
+
+Education:
+I completed my Bachelor of Technology (B.Tech) from Techno International Newtown, Kolkata.
+My degree duration was from 2021 to 2025.
+My CGPA is 7.94.
+
+Coursework:
+I have studied Database Management Systems, Object-Oriented Programming, Web Development, and Data Structures and Algorithms.
+
+Projects:
+I built an AI Virtual Try-On platform called VirtualTryOn.
+The tech stack includes Next.js 14, TypeScript, Tailwind CSS, AI Image APIs, Supabase, and serverless architecture.
+The platform replaces physical photoshoots with high-quality AI-generated apparel visuals.
+It includes a serverless image pipeline for realistic garment draping and a scalable B2B credit system with secure authentication.
+
+I also worked on a Modern Sales CRM platform.
+The tech stack includes React, TypeScript, Vite, Tailwind CSS, Supabase, Zustand, and Recharts.
+The CRM features a Kanban-based sales pipeline, real-time lead tracking, secure authentication, and KPI dashboards.
+
+Experience:
+I am currently working as a Full Stack Developer at Lewkk.in.
+I joined in August 2025 and work on-site.
+I helped build and launch a creator platform including registration, profile setup, outfit uploads, dashboards, and publishing workflows.
+I contributed to onboarding more than 500 creators and improving performance and deployment processes.
+
+I worked as a Web Developer Intern at Envizn Labs from December 2024 to March 2025.
+I built responsive websites using Webflow and worked on React-based applications.
+I collaborated on code reviews and delivered projects under tight deadlines.
+
+Technical Skills:
+Frontend technologies include React, Next.js, React Native, JavaScript, TypeScript, HTML, CSS, and Tailwind CSS.
+Backend technologies include Node.js and Express.js.
+I have experience with Cloudinary, Render, CI/CD pipelines, and deployment.
+Programming languages I know include C++ and SQL.
+
+Extracurricular Activities:
+I participated in the internal college hackathon for Smart India Hackathon.
+Our team ranked 6th out of 130 teams and 1st in our group.
+
+Certifications:
+I completed a NodeJS with Express and MongoDB certification from Udemy.

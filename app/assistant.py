@@ -41,15 +41,9 @@ def search_chunks(question, top_k=2):
     scored.sort(key=lambda x: x[0], reverse=True)
     return [text for _, text in scored[:top_k]]
 
-# ================= INTERACTIVE LOOP =================
-while True:
-    user_input = input("You: ").strip()
 
-    if user_input.lower() in ["exit", "quit"]:
-        print("AI: Bye 👋")
-        break
-
-    relevant_chunks = search_chunks(user_input)
+def ask_ai(question):
+    relevant_chunks = search_chunks(question)
     context = "\n".join(relevant_chunks)
 
     prompt = f"""
@@ -63,12 +57,23 @@ Context:
 {context}
 
 Question:
-{user_input}
+{question}
 
 Answer:
 """
 
     response = llm(prompt, max_tokens=100)
-    answer = response["choices"][0]["text"].strip()
+    return response["choices"][0]["text"].strip()
 
-    print("AI:", answer)
+# ================= INTERACTIVE LOOP =================
+if __name__ == "__main__":
+    print(" ready. Type 'exit' to quit.\n")
+    while True:
+        user_input = input("You: ").strip()
+
+        if user_input.lower() in ["exit", "quit"]:
+            print("AI: Bye ")
+            break
+
+        answer = ask_ai(user_input)
+        print("AI:", answer)

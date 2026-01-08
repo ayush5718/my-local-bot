@@ -1,0 +1,2 @@
+l Try-On platform called VirtualTryOn.
+The tech stack includes Next.js 14, TypeScript, Tailwind CSS,

@@ -1,0 +1,2 @@
+tand, and Recharts.
+The CRM features a Kanban-based sales pipeline, real-time lead tracking, secure
