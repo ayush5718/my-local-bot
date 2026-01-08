@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Model files (Large)
+*.gguf
+*.bin
+model/
+
+# Embeddings Database
+embeddings/
+*.db
+
+# Environment variables
+.env
+
+# IDEs
+.vscode/
+.idea/

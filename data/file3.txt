@@ -1,0 +1,2 @@
+This folder is used to test a local AI assistant.
+Only text files are used here.
